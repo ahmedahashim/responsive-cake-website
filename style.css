@@ -1,0 +1,409 @@
+body{ 
+  width: 100%;
+  background-image: url("https://images.pexels.com/photos/1242348/pexels-photo-1242348.jpeg");
+ 
+  
+ 
+}
+.head {
+  
+  margin: 15px;
+  height: 200px;
+  
+  justify-content: space-between;
+  display: flex;
+  flex-flow: wrap;
+  background: orange;
+}
+.img-responsive {
+  
+  align-self: stretch;
+width: 80%;
+  height: 150px;
+  overflow: hidden;
+  padding: 0 5px;
+  margin: 5px;
+  
+  
+}
+.contact {
+  align-self: flex-end;
+  height: 50px;
+  
+  
+}
+
+.navigator {
+  border: 1px solid rgb(170, 165, 165);
+  margin: 30px 15px 30px 15px;
+  background: orange;
+  display: flex;
+  justify-content: space-around;
+  flex-flow: wrap;
+  height: auto;
+}
+.nav {
+  text-decoration: none;
+
+
+  min-width: 120px;
+  font-size: 1.4em;
+  height: 30px;
+  text-align: center;
+  background-color: black;
+  color: white
+}
+.nav:hover {
+  background-color: blue;
+}
+.foo:hover{
+  background-color: blue;
+}
+main {
+  height: 450px;
+  margin: 30px 15px 30px 15px;
+  display: flex;
+  justify-content: row;
+  justify-content: space-between;
+  flex-flow: wrap;
+  height: auto;
+  
+  
+}
+.left-box {
+  
+  margin-left: 0px;
+  display: flex;
+  height: 450px;
+  
+}
+.hello {
+  height: 150px;
+  background-color: rgb(206, 201, 201);
+  color:black;
+    padding-left:6px;
+ font-family: 'Courier New', Courier, monospace;
+}
+
+.info {
+  
+  font-size: 1em;
+
+ background-color: yellow;
+  height: 300px
+}
+.right-box{
+  margin: 0px;
+ 
+   width: 70%;
+  height: 450px;
+  
+}
+.img-carousel{
+ 
+  font-size: 2em;
+  height:430px;
+  
+
+  padding:10px;
+  background-size: contain;
+  background-image: url("https://images.pexels.com/photos/913136/pexels-photo-913136.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.imgs{
+  display: flex;
+ justify-content: space-around;
+  margin-left: 14px;
+ 
+}
+.imgs figcaption{
+
+  height: 200px;
+  font-size: 2em;
+margin: 1px;
+ background-color: rgb(206, 201, 201);
+ 
+}
+.img1{
+  background-image: url("https://images.pexels.com/photos/1055272/pexels-photo-1055272.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.img2{
+  background-image: url("https://images.pexels.com/photos/433527/pexels-photo-433527.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.img3{
+  background-image: url("https://images.pexels.com/photos/461295/pexels-photo-461295.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.img4{
+  background-image: url("https://images.pexels.com/photos/19640/pexels-photo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.cakesType{
+  display: flex;
+  margin-left: 10px;
+ }
+.cake{
+  height: 200px;
+  
+}
+.cake1{
+
+  height: 190px;
+
+  background-size:contain;
+  background-image: url("https://images.pexels.com/photos/69817/france-confectionery-raspberry-cake-fruit-69817.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.cake2{
+ 
+  height: 190px;
+ 
+  background-size:contain;
+  background-image: url("https://images.pexels.com/photos/291528/pexels-photo-291528.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.cake3{
+ 
+  height: 190px;
+ 
+  background-size:contain;
+  background-image: url("https://images.pexels.com/photos/1070850/pexels-photo-1070850.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.cake4{
+   height: 190px;
+   background-size:contain;
+  background-image: url("https://static.standard.co.uk/s3fs-public/thumbnails/image/2017/10/16/14/cuttersquidge-dream-cakes-popcorn.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cakesType figcaption{
+  
+  height: 150px;
+  
+  font-size: 2em;
+  padding: 15px;
+  margin: 10px;
+  color:red;
+}
+.cake article{  
+  
+  margin: 10px;
+  padding: 15px;
+  font-size: 1em;
+text-align: center;
+}
+
+
+.foot {
+  border: 1px solid rgb(170, 165, 165);
+  margin: 30px 15px 30px 15px;
+  background: orange;
+  display: flex;
+  justify-content: space-around;
+  flex-flow: wrap;
+  height: auto;
+}
+.foo {
+  text-decoration: none;
+  
+
+  min-width: 120px;
+  font-size: 1.4em;
+  height: 30px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  justify-content: space-around;
+}
+
+@media screen and (min-width: 720px){
+  .desktop-3-col {
+    width: 30%;
+    height: auto;
+}
+  .cakesType{
+    flex-direction: row;
+  }
+}
+/* ipad: 2 in a row */
+@media screen and (min-width: 500px) and (max-width: 719px){
+  .tablet-6-col {
+    width: 48%;
+    height: auto;
+  }
+  .cakesType{
+    flex-wrap: wrap;
+  }
+}
+/* mobile: 1 in a row*/ 
+@media screen and (min-width: 320px) and (max-width: 499px){
+  .mobile-12-col {
+    width: 84%;
+    height: auto;
+  }
+  .cakesType{
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 720px){
+  .desktop2-3-col {
+    width: 20%;
+}
+  .imgs{
+    padding: 0px;
+    margin: 5px;
+        flex-direction: row;
+  }
+}
+/* ipad: 2 in a row */
+@media screen and (min-width: 500px) and (max-width: 719px){
+  .tablet2-6-col {
+    width: 40%;
+  }
+  .imgs{
+    flex-wrap: wrap;
+  }
+}
+/* mobile: 1 in a row*/ 
+@media screen and (min-width: 320px) and (max-width: 499px){
+  .mobile2-12-col {
+    width: 80%;
+  }
+  .imgs{
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 720px){
+  .desktop1-3-col {
+    width: 25%;
+}
+
+.left-box{
+    flex-direction: column;
+    
+  }
+  
+}
+/* ipad: 2 in a row */
+@media screen and (min-width: 500px) and (max-width: 719px){
+  .tablet1-6-col {
+    width: 73%;
+  }
+  .left-box{
+    flex-direction: row;
+   
+  }
+ .hello{
+   width: 50%;
+   height: 450px;
+ }
+ .info{
+   width: 50%;
+   height: 450px;
+ }
+}
+/* mobile: 1 in a row*/ 
+@media screen and (min-width: 320px) and (max-width: 499px){
+  .mobile1-12-col {
+    width: 75%;
+  }.left-box{
+      flex-direction: column;
+    background-color: blue;
+    height: auto;
+  }
+  
+}
+@media screen and (min-width: 720px){
+  .desktop3-3-col {
+    width:97%;
+}
+.img-carouse{
+    flex-direction: row;
+  }
+}
+/* ipad: 2 in a row */
+@media screen and (min-width: 500px) and (max-width: 719px){
+  .tablet3-6-col {
+    width: 100%;
+  }
+  .img-carouse{
+    flex-wrap: wrap;
+  }
+}
+/* mobile: 1 in a row*/ 
+@media screen and (min-width: 320px) and (max-width: 499px){
+  .mobile3-12-col {
+    width: 100%;
+  }
+  .img-carouse{
+    flex-direction: row;
+  }
+}
+@media screen and (min-width: 720px){
+  .desktop4-3-col {
+    width:97%;
+}
+.head{
+    flex-direction: row;
+  }
+}
+/* ipad: 2 in a row */
+@media screen and (min-width: 500px) and (max-width: 719px){
+  .tablet4-6-col {
+    width: 70%;
+  }
+  .head{
+    flex-wrap: wrap;
+  }
+}
+/* mobile: 1 in a row*/ 
+@media screen and (min-width: 320px) and (max-width: 499px){
+  .mobile4-12-col {
+    width: 70%;
+  }
+  .head{
+    flex-direction: row;
+  }
+  .contact{ 
+    justify-content: flex-end;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 499px){
+  .container {
+    flex-direction: column-reverse;
+  }
+  .navigator{
+    flex-direction: column;
+  }
+  .foot{
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 719px){
+  .container {
+    flex-direction: column-reverse;
+  }
+}
+@media screen and (min-width: 720px){
+  .container {
+    flex-direction: row;
+}
+
+}
+
+
